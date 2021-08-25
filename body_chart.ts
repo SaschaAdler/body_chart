@@ -33,8 +33,8 @@ const interpolateColor = (distance: number): Color => {
   ) as Color;
 };
 
-const rgb = (color: [number, number, number]) => {
-  color = color.map((val) => Math.floor(val)) as [number, number, number];
+const rgb = (color: Color) => {
+  color = color.map((val) => Math.floor(val)) as Color;
   return `rgb(${color[0]},${color[1]},${color[2]})`;
 };
 
@@ -75,7 +75,16 @@ const SVG_CONTENTS = (await Deno.readTextFile(
 const inputs = Deno.args;
 
 for (const input of inputs) {
-  const text = await Deno.readTextFile(input);
+  let text: string;
+  try {
+    text = await Deno.readTextFile(input);
+  } catch (_) {
+    console.error(`Could not load file: ${input}`);
+    break;
+  }
+
+  console.log(`Processing file: ${input}`);
+
   const values = (await parseCSV(text) as string[][])
     .filter((row) =>
       !Number.isNaN(parseInt(row[0], 10)) &&
@@ -124,6 +133,8 @@ for (const input of inputs) {
     const convertProcess = Deno.run({ cmd: ["convert", tmpSvg, output] });
     await convertProcess.status();
     convertProcess.close();
+
+    console.log(`Generating: ${output}`);
 
     await Deno.remove(tmpSvg);
   }
