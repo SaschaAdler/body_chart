@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="no"?>
+<svg height="1127" width="974" xmlns="http://www.w3.org/2000/svg">
+  <image x="0" y="0" width="974px" height="1127px" href="./body.png"></image>
+  <g id="segments" fill="red" fill-opacity="0.5" stroke-width="0px" stroke="black">
+    <path id="1" data-desc="Head ant." fill="" d="M206,35L224,27L250,27L273,49L284,73L288,107L274,123L266,148L250,166L230,166L210,150L202,129L189,118L184,93L191,77L197,46Z" />
+    <path id="2" data-desc="Head post." fill="" d="M692,27L719,17L737,19L759,42L765,65L769,100L755,126L725,126L694,126L678,110L672,86L678,51L682,38Z" />
+    <path id="3" data-desc="Neck ant." fill="" d="M210,150L230,166L250,166L266,148L274,178L210,178Z" />
+    <path id="4" data-desc="Neck post L" fill="" d="M694,126L726,126L726,171L692,171L696,151Z" />
+    <path id="5" data-desc="Shoulder ant R" fill="" d="M128,234L152,210L210,178L158,266L122,266Z" />
+    <path id="6" data-desc="Shoulder ant L" fill="" d="M274,178L336,206L354,224L366,266L328,266Z" />
+    <path id="7" data-desc="Chest" fill="" d="M210,178L274,178L328,266L322,308L322,342L166,342L166,312L158,266Z" />
+    <path id="8" data-desc="Abdomen" fill="" d="M168,362L166,342L322,342L320,362L316,398L332,478L158,478L172,402Z" />
+    <path id="9" data-desc="Hip joint ant. R" fill="" d="M158,478L216,478L216,532L156,532Z" />
+    <path id="10" data-desc="Hip joint ant L" fill="" d="M274,478L332,478L334,532L274,532Z" />
+    <path id="11" data-desc="Mid back L" fill="" d="M652,290L730,290L732,386L668,386L660,348Z" />
+    <path id="12" data-desc="Low back L" fill="" d="M668,386L732,386L734,480L652,480L656,432Z" />
+    <path id="13" data-desc="Groin" fill="" d="M216,478L274,478L274,532L334,532L336,568L156,568L156,532L216,532Z" />
+    <path id="14" data-desc="Elbow joint ant. L" fill="" d="M320,362L366,362L370,394L326,394Z" />
+    <path id="15" data-desc="Elbow joint ant. R" fill="" d="M122,362L168,362L162,394L116,394Z" />
+    <path id="16" data-desc="Upper arm ant. R" fill="" d="M122,266L158,266L166,312L166,342L168,362L122,362Z" />
+    <path id="17" data-desc="Upper arm ant. L" fill="" d="M328,266L366,266L366,362L320,362L322,342L322,308Z" />
+    <path id="18" data-desc="Wrist joint ant L" fill="" d="M376,520L406,516L412,542L382,542Z" />
+    <path id="19" data-desc="Wrist joint ant R" fill="" d="M92,516L120,520L116,542L78,542Z" />
+    <path id="20" data-desc="Hand ant L" fill="" d="M382,542L404,542L404,558L418,568L422,584L382,584Z" />
+    <path id="21" data-desc="Fingers ant. L" fill="" d="M382,584L422,584L423,631L404,634L388,616Z" />
+    <path id="22" data-desc="Thumb ant L" fill="" d="M404,542L412,542L428,558L444,578L440,584L418,568L404,558Z" />
+    <path id="23" data-desc="Hand ant R" fill="" d="M92,542L116,542L116,580L111,595L70,584L77,572L92,560Z" />
+    <path id="24" data-desc="Fingers ant. R" fill="" d="M70,584L111,595L103,620L84,640L62,627Z" />
+    <path id="25" data-desc="Thumb ant R." fill="" d="M70,553L78,542L92,542L92,560L77,572L53,590L50,584Z" />
+    <path id="26" data-desc="Forearm ant R." fill="" d="M116,394L162,394L158,436L148,462L120,520L92,516L103,445Z" />
+    <path id="27" data-desc="Forearm ant. L" fill="" d="M326,394L370,394L388,440L406,516L376,520L342,460Z" />
+    <path id="28" data-desc="Thigh ant. R" fill="" d="M156,568L246,568L248,740L190,740L165,645Z" />
+    <path id="29" data-desc="Knee joint ant. R" fill="" d="M188,740L248,740L246,774L188,774Z" />
+    <path id="30" data-desc="Ankle joint ant R" fill="" d="M210,936L246,936L252,952L250,968L214,968Z" />
+    <path id="31" data-desc="Lower Leg ant. R" fill="" d="M188,774L246,774L250,841L247,892L246,936L210,936L197,894L184,840Z" />
+    <path id="32" data-desc="Foot/Toes ant R" fill="" d="M214,968L250,968L245,1006L247,1045L238,1061L204,1044L185,1031Z" />
+    <path id="33" data-desc="Elbow joint post L" fill="" d="M616,368L658,368L654,402L602,402Z" />
+    <path id="34" data-desc="Elbow joint post R" fill="" d="M812,368L858,368L870,402L815,402Z" />
+    <path id="35" data-desc="Upper arm post L" fill="" d="M606,290L652,290L660,348L658,368L616,368Z" />
+    <path id="36" data-desc="Upper arm post R" fill="" d="M814,290L848,290L851,354L858,368L812,368L810,348Z" />
+    <path id="37" data-desc="Forearm post R" fill="" d="M815,402L870,402L892,500L865,500L823,429Z" />
+    <path id="38" data-desc="Forearm post L" fill="" d="M602,402L654,402L646,436L636,460L610,510L580,510Z" />
+    <path id="39" data-desc="Wrist joint post L" fill="" d="M580,510L610,510L604,534L576,534L572,528Z" />
+    <path id="40" data-desc="Wrist joint post R" fill="" d="M865,500L892,500L898,514L894,524L872,524Z" />
+    <path id="41" data-desc="Thumb post R" fill="" d="M898,514L910,522L918,538L938,560L928,565L912,550L896,536L894,524Z" />
+    <path id="42" data-desc="Thumb post L" fill="" d="M561,541L572,528L576,534L578,548L562,562L544,582L538,576Z" />
+    <path id="43" data-desc="Fingers post R" fill="" d="M874,550L912,550L918,600L906,610L896,610L878,584Z" />
+    <path id="44" data-desc="Fingers post L" fill="" d="M562,562L602,562L597,607L575,627L556,620Z" />
+    <path id="45" data-desc="Hand post R" fill="" d="M872,524L894,524L896,536L912,550L874,550Z" />
+    <path id="46" data-desc="Hand post L" fill="" d="M576,534L604,534L602,562L562,562L578,548Z" />
+    <path id="47" data-desc="Buttocks L" fill="" d="M734,480L738,560L652,560L652,480Z" />
+    <path id="48" data-desc="Foot/Toes post R" fill="" d="M760,964L798,964L808,1003L783,1030L762,1032L756,1001Z" />
+    <path id="49" data-desc="Heels post R" fill="" d="M760,928L788,928L798,964L760,964L754,946Z" />
+    <path id="50" data-desc="Ankle joint post R" fill="" d="M760,894L794,894L788,928L760,928Z" />
+    <path id="51" data-desc="Lower Leg post R" fill="" d="M750,762L800,762L806,790L806,830L794,894L760,894L748,820Z" />
+    <path id="52" data-desc="Knee joint post R" fill="" d="M742,724L800,724L800,762L746,762Z" />
+    <path id="53" data-desc="Thigh post R" fill="" d="M738,560L824,560L800,724L742,724Z" />
+    <path id="54" data-desc="Lower Leg ant. L" fill="" d="M256,774L308,774L309,846L294,936L262,936L253,847Z" />
+    <path id="55" data-desc="Knee joint ant. L" fill="" d="M248,740L310,740L308,774L256,774Z" />
+    <path id="56" data-desc="Suprascapular R" fill="" d="M753,171L771,171L783,181L813,196L796,206L753,218Z" />
+    <path id="57" data-desc="Neck post R" fill="" d="M726,126L756,126L754,150L771,171L726,171Z" />
+    <path id="58" data-desc="Suprascapular L" fill="" d="M703,171L692,171L687,174L640,203L655,206L703,218Z" />
+    <path id="59" data-desc="Med. border scapula R" fill="" d="M728,218L753,218L763,290L730,290Z" />
+    <path id="60" data-desc="Med. border scapula L" fill="" d="M728,218L703,218L696,290L730,290Z" />
+    <path id="61" data-desc="mid trap. R" fill="" d="M726,171L753,171L753,218L728,218Z" />
+    <path id="62" data-desc="mid trap. L" fill="" d="M703,171L726,171L728,218L703,218Z" />
+    <path id="63" data-desc="Subscapular L" fill="" d="M636,254L664,254L664,290L636,290Z" />
+    <path id="64" data-desc="Deltoid L" fill="" d="M620,214L636,202L636,290L606,290L608,248Z" />
+    <path id="65" data-desc="Deltoid R" fill="" d="M836,214L821,201L821,290L849,290L846,249Z" />
+    <path id="66" data-desc="Subscapular R" fill="" d="M794,254L821,254L821,290L794,290Z" />
+    <path id="67" data-desc="Mid back R" fill="" d="M730,290L814,290L810,348L802,386L732,386Z" />
+    <path id="68" data-desc="Low back R" fill="" d="M732,386L802,386L820,480L734,480Z" />
+    <path id="69" data-desc="Buttocks R" fill="" d="M820,480L826,518L824,560L738,560L734,480Z" />
+    <path id="70" data-desc="Thigh post L" fill="" d="M652,560L738,560L742,724L692,724L658,614Z" />
+    <path id="71" data-desc="Knee joint post L" fill="" d="M692,724L742,724L746,762L692,762Z" />
+    <path id="72" data-desc="Lower Leg post L" fill="" d="M692,762L742,762L746,822L740,894L704,894L690,840L688,790Z" />
+    <path id="73" data-desc="Ankle joint post L" fill="" d="M704,894L740,894L744,928L710,928Z" />
+    <path id="74" data-desc="Heels post L" fill="" d="M710,928L744,928L748,942L742,964L710,964Z" />
+    <path id="75" data-desc="Foot/Toes post L" fill="" d="M710,964L742,964L749,1005L744,1036L708,1030L700,1010Z" />
+    <path id="76" data-desc="Shoulder joint region L" fill="" d="M636,202L655,206L664,254L636,254Z" />
+    <path id="77" data-desc="Scapula L" fill="" d="M655,206L703,218L696,290L664,290L664,254Z" />
+    <path id="78" data-desc="Shoulder joint region R" fill="" d="M796,206L813,196L821,201L821,254L794,254Z" />
+    <path id="79" data-desc="Scapula R" fill="" d="M753,218L796,206L794,254L794,290L763,290Z" />
+    <path id="80" data-desc="Thigh ant L" fill="" d="M336,568L246,568L248,740L310,740L330,647Z" />
+    <path id="81" data-desc="Ankle joint ant L" fill="" d="M262,936L294,936L294,968L260,968Z" />
+    <path id="82" data-desc="Foot/Toes ant L" fill="" d="M260,968L294,968L314,1035L291,1056L265,1061Z" />
+  </g>
+</svg>
