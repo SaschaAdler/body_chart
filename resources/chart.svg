@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <svg height="1127" width="974" xmlns="http://www.w3.org/2000/svg">
-  <image x="0" y="0" width="974px" height="1127px" href="./body.png"></image>
-  <g id="segments" fill="red" fill-opacity="0.5" stroke-width="0px" stroke="black">
+  <image height="1127" width="974" x="0" y="0" href="data:image/png;base64,$IMAGE_DATA" />
+  <g id="segments" fill-opacity="0.8">
     <path id="1" data-desc="Head ant." fill="" d="M206,35L224,27L250,27L273,49L284,73L288,107L274,123L266,148L250,166L230,166L210,150L202,129L189,118L184,93L191,77L197,46Z" />
     <path id="2" data-desc="Head post." fill="" d="M692,27L719,17L737,19L759,42L765,65L769,100L755,126L725,126L694,126L678,110L672,86L678,51L682,38Z" />
     <path id="3" data-desc="Neck ant." fill="" d="M210,150L230,166L250,166L266,148L274,178L210,178Z" />
@@ -30,9 +30,9 @@
     <path id="26" data-desc="Forearm ant R." fill="" d="M116,394L162,394L158,436L148,462L120,520L92,516L103,445Z" />
     <path id="27" data-desc="Forearm ant. L" fill="" d="M326,394L370,394L388,440L406,516L376,520L342,460Z" />
     <path id="28" data-desc="Thigh ant. R" fill="" d="M156,568L246,568L248,740L190,740L165,645Z" />
-    <path id="29" data-desc="Knee joint ant. R" fill="" d="M188,740L248,740L246,774L188,774Z" />
+    <path id="29" data-desc="Knee joint ant. R" fill="" d="M190,740L248,740L242,774L192,774Z" />
     <path id="30" data-desc="Ankle joint ant R" fill="" d="M210,936L246,936L252,952L250,968L214,968Z" />
-    <path id="31" data-desc="Lower Leg ant. R" fill="" d="M188,774L246,774L250,841L247,892L246,936L210,936L197,894L184,840Z" />
+    <path id="31" data-desc="Lower Leg ant. R" fill="" d="M192,774L242,774L250,841L247,892L246,936L210,936L197,894L187,840Z" />
     <path id="32" data-desc="Foot/Toes ant R" fill="" d="M214,968L250,968L245,1006L247,1045L238,1061L204,1044L185,1031Z" />
     <path id="33" data-desc="Elbow joint post L" fill="" d="M616,368L658,368L654,402L602,402Z" />
     <path id="34" data-desc="Elbow joint post R" fill="" d="M812,368L858,368L870,402L815,402Z" />
@@ -85,4 +85,19 @@
     <path id="81" data-desc="Ankle joint ant L" fill="" d="M262,936L294,936L294,968L260,968Z" />
     <path id="82" data-desc="Foot/Toes ant L" fill="" d="M260,968L294,968L314,1035L291,1056L265,1061Z" />
   </g>
+  <g id="scale">
+    <rect x="50" y="750" width="50" height="300" fill="url('#scaleGradient')" stroke="black" stroke-width="5px" />
+    <text x="110" y="760" class="scale">$MAX</text>
+    <text x="110" y="1060" class="scale">1</text>
+  </g>
+  <text x="500" y="1100" class="attribution">Body Chart © Patrice Berque, 2014</text>
+  <defs>
+    <linearGradient id="scaleGradient" gradientTransform="rotate(90)">
+$GRADIENT
+    </linearGradient>
+  </defs>
+  <style>
+    .scale { font: bold 32px monospace; }
+    .attribution { font: 24px serif; }
+  </style>
 </svg>
