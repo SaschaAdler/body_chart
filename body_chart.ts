@@ -74,23 +74,37 @@ const SVG_CONTENTS = (await Deno.readTextFile(
 
 const inputs = Deno.args;
 
+let errors = 0;
+
 for (const input of inputs) {
   let text: string;
   try {
     text = await Deno.readTextFile(input);
   } catch (_) {
     console.error(`Could not load file: ${input}`);
+    errors += 1;
     break;
   }
 
-  console.log(`Processing file: ${input}`);
+  let values: number[][];
+  try {
+    values = (await parseCSV(text) as string[][])
+      .filter((row) =>
+        !Number.isNaN(parseInt(row[0], 10)) &&
+        !Number.isNaN(parseInt(row[1], 10))
+      )
+      .map((row) => row.slice(1).map((val) => parseInt(val, 10)));
+  } catch (_) {
+    console.error(`Could not parse CSV: ${input}`);
+    errors += 1;
+    break;
+  }
 
-  const values = (await parseCSV(text) as string[][])
-    .filter((row) =>
-      !Number.isNaN(parseInt(row[0], 10)) &&
-      !Number.isNaN(parseInt(row[1], 10))
-    )
-    .map((row) => row.slice(1).map((val) => parseInt(val, 10)));
+  if (!values.every((list) => list.length === SEGMENTS)) {
+    console.error(
+      `Invalid CSV (expecting ${SEGMENTS} values in each line): ${input}`,
+    );
+  }
 
   for (const type of ["any", "worst"] as const) {
     const output = pathJoin(
