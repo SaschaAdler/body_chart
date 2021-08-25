@@ -97,7 +97,7 @@ $GRADIENT
     </linearGradient>
   </defs>
   <style>
-    .scale { font: bold 32px monospace; }
-    .attribution { font: 24px serif; }
+    .scale { font-size: 32px; font-family: "Times New Roman", serif; }
+    .attribution { font-size: 24px; font-family: "Times New Roman", serif; }
   </style>
 </svg>
